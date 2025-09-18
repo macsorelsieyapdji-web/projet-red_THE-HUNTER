@@ -26,6 +26,7 @@ var ShopItems = []ShopItem{
 	{"Chapeau de l’aventurier", 5},
 	{"Tunique de l’aventurier", 5},
 	{"Bottes de l’aventurier", 5},
+	{"billes de gun", 5},
 }
 
 // Ouvre le shop et permet l'achat
