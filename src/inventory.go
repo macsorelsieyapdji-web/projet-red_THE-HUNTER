@@ -54,6 +54,11 @@ func useItem(c *Character, item string) {
 		if c.PVActuels > c.PVMax {
 			c.PVActuels = c.PVMax
 		}
+		case "Canne de gun":
+		c.PVActuels += 30
+		if c.PVActuels > c.PVMax {
+			c.PVActuels = c.PVMax
+		}
 		fmt.Printf("💊 Potion utilisée : +30 PV (%d/%d)\n", c.PVActuels, c.PVMax)
 	case "Potion d’énergie":
 		c.Initiative += 3
